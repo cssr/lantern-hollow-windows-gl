@@ -1,0 +1,10 @@
+<Project>
+
+  <!-- Applies to every project in the repo.
+       NuGetAudit off: a new security advisory on a dependency would otherwise turn
+       "dotnet build -warnaserror" red in the middle of a class. -->
+  <PropertyGroup>
+    <NuGetAudit>false</NuGetAudit>
+  </PropertyGroup>
+
+</Project>
